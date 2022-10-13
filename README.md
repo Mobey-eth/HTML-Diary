@@ -29,6 +29,8 @@
 * HTML entities
 * Boiler plate code and time savers etc.
 
+*I had to ignore the images and video folder due to privacy concerns.*
+
 
 
 
