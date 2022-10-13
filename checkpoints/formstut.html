@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Mobi LRN | Forms & Inputs
+        </title>
+        <meta name="description"
+            content="Moby is an enthusiastic solidity developer who's excited about building this new iteration of the internet together with friends">
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+        <link rel="icon" href="../img/mbyico.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <h1>
+            <a href="twitter.com/0xmobi" target="_blank"> Moby info</a>
+        </h1>
+        <a href="github.com/mobey-eth" target="_blank"> Moby's github</a>
+        <p>Lets Navigate to the next page aswell!
+        <div>
+            <a target="_blank" href="../indexFU.html">
+                <img width="80" height="100" src="../img/Hexagonal Profile Photo-3.png">
+            </a>
+        </div>
+        </p>
+
+        <!-- To input a form ,use labels, input and buttons... also select and options-->
+        <!-- name and value differ from labels, placeholders etc.-->
+        <div>
+            <h3> Forms and Inputs </h3>
+            <form action="./indexFU.html" target="_blank">
+                <label for="user">
+                    <strong>Username</strong>
+                </label>
+                <input name="user" type="text" id="user" minlength="4" maxlength="15" autofocus
+                    placeholder="char should be min 4" required>
+                <label for="email"> Email</label>
+                <input name="email" type="email" id="email" minlength="4" autocomplete="off" placeholder="valid email"
+                    required>
+                <select name="products" id="product">
+                    <option value=""></option>
+                    <option value="Macbook2022">mac</option>
+                    <option value="iPhone14" selected>iPhone</option>
+                    <option value="series 8">iWatch</option>
+                </select>
+                <div>
+                    <label for="message">Wish</label>
+                    <textarea maxlength="140" name="wish" id="message" cols="30" rows="10" placeholder="Make a wish..."
+                        required></textarea>
+                </div>
+
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+
+        <div>
+            <form action="./indexFU.html" target="_blank">
+                <label for="radio"> lappys</label>
+                <input type="radio" id="radio" name="Products" value="macbook">
+                <label for="phones"> phone</label>
+                <input type="radio" id="phones" name="Products" value="iPhone 14">
+                <input type="radio" name="Products" value="iPhone 13">
+                <button type="submit">Submit!</button>
+            </form>
+        </div>
+    </body>
+
+</html>
